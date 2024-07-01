@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="inp">
+            <button class="btn" onclick="removeAll()">C</button>
+            <button class="btn" onclick="deleteLast()">DEL</button>
+            <button class="btn" onclick="printme('%')">%</button>
+            <button class="btn" onclick="printme('/')">/</button>
+            <button class="btn" onclick="printme(7)">7</button>
+            <button class="btn" onclick="printme(8)">8</button>
+            <button class="btn" onclick="printme(9)">9</button>
+            <button class="btn" onclick="printme('*')">X</button>
+            <button class="btn" onclick="printme(4)">4</button>
+            <button class="btn" onclick="printme(5)">5</button>
+            <button class="btn" onclick="printme(6)">6</button>
+            <button class="btn" onclick="printme('+')">+</button>
+            <button class="btn" onclick="printme(1)">1</button>
+            <button class="btn" onclick="printme(2)">2</button>
+            <button class="btn" onclick="printme(3)">3</button>
+            <button class="btn" onclick="printme('-')">-</button>
+            <button class="btn" onclick="printme('.')">.</button>
+            <button class="btn" onclick="printme(0)">0</button>
+            <button class="btn" id="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

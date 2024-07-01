@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+    /* display: flex; */
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid aquamarine;
+    padding: 1rem;
+}

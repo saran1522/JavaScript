@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f3;
+}
+
+.calc{
+    border-radius: 20px;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f3;
+    box-shadow: -6px -6px 13px rgba(141, 141, 141, 0.167),
+                 6px 6px 13px rgba(131, 131, 131, 0.199);
+}
+
+input{
+    color: black;
+    width: 320px;
+    height: 60px;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 12px;
+    text-align: end;
+    box-shadow: inset -6px -6px 13px rgb(255, 255, 255),
+                inset 6px 6px 13px rgba(223, 208, 255, 0.553);
+    font-size: 30px;
+}
+
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+
+button{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 40%;
+    background-color: #ecf0f3;
+    box-shadow: -6px -6px 13px rgba(198, 210, 255, 0.634),
+                6px 6px 10px rgba(162, 154, 255, 0.38);
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(6, 21, 96);
+}
+
+#equal{
+    width: 154px;
+    border-radius: 25px;
+}
+
+button:hover{
+    box-shadow: inset -6px -6px 13px rgb(255, 255, 255),
+                inset 6px 6px 13px rgba(53, 52, 52, 0.129);
+}

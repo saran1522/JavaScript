@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <input type="number" id="inp" placeholder="Enter The Temprature In C">
+        <div class="btns">
+            <div class="tempnumb">
+                <button class="btnclass" id="conv" onclick="tofar() ,tokel()">CONVERT</button>
+            </div>
+            <div class="tempnumb">
+                <button class="btnclass" id="farbtn">FARENHITE</button>
+                <p id="far">0</p>
+            </div>
+            <div class="tempnumb">
+                <button class="btnclass" id="kelbtn">KELVIN</button>
+                <p id="kel">0</p>
+            </div>
+            <div class="tempnumb">
+                <button class="btnclass" id="resbtn" onclick="reset()">
+                RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
